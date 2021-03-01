@@ -11,6 +11,9 @@ extern "C" {
 JNIEXPORT jint  JNICALL Java_com_sabirjan_reader_tools_WltDecodeUtil_Wlt2Bmp
         (JNIEnv *, jobject,jbyteArray,jbyteArray);
 
+JNIEXPORT jint  JNICALL Java_com_sabirjan_reader_tools_WltDecodeUtil_wlt2bmptest
+        (JNIEnv *, jobject,jbyteArray,jbyteArray);
+
 #ifdef __cplusplus
 }
 #endif

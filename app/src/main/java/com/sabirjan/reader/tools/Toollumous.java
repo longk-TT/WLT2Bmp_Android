@@ -15,7 +15,7 @@ public class Toollumous
         byte[] arrayOfByte1 = new byte[40960];
         try {
             if(data==null) return null;
-            int k = new WltDecodeUtil().Wlt2Bmp(data, arrayOfByte1);
+            int k = new WltDecodeUtil().wlt2bmptest(data, arrayOfByte1);
 
             Log.i("解码", "getBitmap: 解码结果:"+k);
             if (k != 1) {
