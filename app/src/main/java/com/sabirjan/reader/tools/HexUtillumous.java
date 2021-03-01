@@ -5,7 +5,7 @@ package com.sabirjan.reader.tools;
  * HexUtil.
  *  新疆精灵通电子科技有限公司
  */
-public class HexUtil {
+public class HexUtillumous {
     public static String bytesToHexString(byte[] src) {
         StringBuilder stringBuilder = new StringBuilder("");
         if (src == null) {

@@ -9,7 +9,7 @@ package com.sabirjan.reader.tools;
 import android.graphics.Bitmap;
 import android.util.Log;
 
-public class Tool
+public class Toollumous
 {
     public static Bitmap getBitmap(byte []data) {
         byte[] arrayOfByte1 = new byte[40960];
@@ -24,7 +24,7 @@ public class Tool
             byte[] arrayOfByte2 = new byte[38556];
             System.arraycopy(arrayOfByte1, 0, arrayOfByte2, 0, 38556);
 
-            return Tool.createRgbBitmap(arrayOfByte2, 102, 126);
+            return Toollumous.createRgbBitmap(arrayOfByte2, 102, 126);
 
 
         } catch (Exception localException) {
