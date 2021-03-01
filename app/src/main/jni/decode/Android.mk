@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 # define so output folder
 #NDK_APP_DST_DIR := libs/$(TARGET_ARCH_ABI)/usb
 
-LOCAL_MODULE    := Wlt2Bmp
+LOCAL_MODULE    := wlt2bmp1lumous
 LOCAL_SRC_FILES += \
 ./Wlt2BmpUtils.cpp \
 
