@@ -2,11 +2,6 @@ package com.sabirjan.reader.tools;
 
 import java.util.Arrays;
 
-/**
- * Created by Sabirjan on 2017/11/6.
- * Wlt2BmpDemo1.
- * 新疆精灵通电子科技有限公司
- */
 
 public class TempGloballumous {
     //private static final int SEEK_SIZE = 14;

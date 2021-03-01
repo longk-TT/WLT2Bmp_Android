@@ -1,10 +1,6 @@
 package com.sabirjan.reader.tools;
 
-/**
- * Created by Sabirjan on 2017/11/6.
- * HexUtil.
- *  新疆精灵通电子科技有限公司
- */
+
 public class HexUtillumous {
     public static String bytesToHexString(byte[] src) {
         StringBuilder stringBuilder = new StringBuilder("");
@@ -22,20 +18,23 @@ public class HexUtillumous {
         return stringBuilder.toString();
 
     }
-    private static String hexStr =  "0123456789ABCDEF";
-    public static String bin2HexStr(byte[] bytes){
+
+    private static String hexStr = "0123456789ABCDEF";
+
+    public static String bin2HexStr(byte[] bytes) {
 
         String result = "";
         String hex = "";
-        for(int i=0;i<bytes.length;i++){
+        for (int i = 0; i < bytes.length; i++) {
             //字节高4位
-            hex = String.valueOf(hexStr.charAt((bytes[i]&0xF0)>>4));
+            hex = String.valueOf(hexStr.charAt((bytes[i] & 0xF0) >> 4));
             //字节低4位
-            hex += String.valueOf(hexStr.charAt(bytes[i]&0x0F));
-            result +=hex;  //+" "
+            hex += String.valueOf(hexStr.charAt(bytes[i] & 0x0F));
+            result += hex;  //+" "
         }
         return result;
     }
+
     public static String bytesToHexString(byte[] src, int nLen) {
         StringBuilder stringBuilder = new StringBuilder("");
         if (src == null || src.length < 0 || nLen < 0) {
